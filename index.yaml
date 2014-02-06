@@ -1,0 +1,13 @@
+indexes:
+
+- kind: Post
+  ancestor: yes
+  properties:
+  - name: created
+    direction: desc
+
+- kind: Post
+  ancestor: yes
+  properties:
+  - name: date
+    direction: desc
